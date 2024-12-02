@@ -167,7 +167,8 @@ to train our segmentation model.
 <img src ="./projects/TensorflowSlightlyFlexibleUNet/Lizard-Consep/Lizard-Consep_Statistics.png" width="512" height="auto"><br>
 <br>
 As shown above, the number of images of train and valid datasets is not enough to use for a training set of our segmentation model.
-Therefore, we enabled our online augmentation tool in the training process.<br>
+<!-- Therefore, we enabled our online augmentation tool in the training process.
+-->
 <br>
 <br>
 <b>Train_images_sample</b><br>
