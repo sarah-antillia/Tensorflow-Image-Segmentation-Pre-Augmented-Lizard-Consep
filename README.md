@@ -10,7 +10,7 @@ Lizard-Consep-ImageMask-Dataset.zip</a>, which was derived by us from Consep cat
 <br>
 <b>Data Augmentation Strategy:</b><br>
  To address the limited size of Lizard-Consep, 
- we employed <a href="./generator/ImageMaskDatasetGenerator.py">an offline augmentation tool</a> to generate a pre-augmented dataset, which supports the following aumentation methods.
+ we employed <a href="./generator/ImageMaskDatasetGenerator.py">an offline augmentation tool</a> to generate a pre-augmented dataset, which supports the following augmentation methods.
 <li>Vertical flip</li>
 <li>Horizontal flip</li>
 <li>Rotation</li>
@@ -213,7 +213,7 @@ learning_rate  = 0.0001
 </pre>
 
 <b>Online augmentation</b><br>
-Disabled our online augmentation.
+Disabled our online augmentation.You may train this model by setting this generator parameter to True. 
 <pre>
 [model]
 model         = "TensorflowUNet"
